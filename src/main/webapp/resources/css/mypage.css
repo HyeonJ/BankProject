@@ -1,0 +1,82 @@
+.header{
+    padding : 10px;
+}
+
+.logoText{
+    font-size: 3ex;
+    font-weight: bold;
+    float: left;
+}
+
+.logoutText{
+    float: right;
+}
+
+.header > span > a{
+    text-decoration-line: none;
+}
+
+.header > span > a:hover{
+    text-decoration: underline;
+}
+
+.mypageText{
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.modifyContainer {
+    padding-top: 50px;
+    width: 500px; /* 원하는 폭으로 설정 */
+    margin: 0 auto; /* 좌우 마진을 auto로 설정하여 가운데 정렬 */
+}
+
+
+.profileContainer {
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+}
+
+.photoPlace {
+    margin-right: 10px; /* 이미지와 버튼 사이 간격 조정 */
+}
+
+
+.photoPlace > img{
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    border: none;
+}
+
+.uploadContainer {
+    display: flex;
+    align-items: center; /* 수직 가운데 정렬 */
+    margin-top: 35px;
+}
+
+#uploadButton {
+    vertical-align: middle; /* 세로 가운데 정렬 */
+}
+
+.infoTable {
+    margin: 0 auto;
+}
+
+.infoTable input{
+    height: 30px;
+}
+
+.infoTable #submitButton{
+    width: 100%;
+    height: 30px;
+}
+
+#uploadButton {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    border: none;
+    background-image: url('../src/uploadButton.PNG');
+}

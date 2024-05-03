@@ -1,0 +1,41 @@
+.header{
+    padding : 10px;
+}
+
+.logoText{
+    font-size: 3ex;
+    font-weight: bold;
+    float: left;
+}
+
+.rightTopTexts{
+    float: right;
+}
+
+.rightTopTexts > span > a{
+    text-decoration-line: none;
+}
+
+.rightTopTexts > span > a:hover{
+    text-decoration: underline;
+}
+
+.transferText{
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.transferContainer {
+    padding-top: 50px;
+    width: 700px; /* 원하는 폭으로 설정 */
+    margin: 0 auto; /* 좌우 마진을 auto로 설정하여 가운데 정렬 */
+}
+
+.infoContainer{
+    width: 600px; /* 원하는 폭으로 설정 */
+    margin: 0 auto; /* 좌우 마진을 auto로 설정하여 가운데 정렬 */
+}
+
+.transferButtonContainer{
+    text-align: center;
+}
